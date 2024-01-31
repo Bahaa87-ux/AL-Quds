@@ -1,0 +1,91 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image:linear-gradient(to right, #5f0f0a,#020222);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.container{
+    background-image: linear-gradient(to right, #7018116b 30%,#0202228e), 
+    url(image/QUDS.png);
+    width: 90%;
+    height: 640px;
+}
+.container:hover{
+    background-image: linear-gradient(to right, #7018116b , transparent), 
+    url(image/QUDS.png);
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+.logo
+{
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    list-style: none;
+    font-size: 18px;
+}
+ul li{
+    border-bottom:transparent solid 2px;
+}
+ul li:hover{
+    border-bottom-color:white ;
+    transition: 0.7s;
+}
+.content
+{
+    color: white;
+    width: 50%;
+    margin: 50px;
+    padding: 30px;
+    background-position: center;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+.content p{
+    width: 75%;
+    letter-spacing: 2.5px;
+    font-size: large;
+    padding: 20px 0;
+
+
+}
+.content button{
+    font-size: 20px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.content button:hover{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+}
